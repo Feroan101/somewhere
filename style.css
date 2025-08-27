@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #111; 
+    color: #f5f5f5;      
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px; 
+    margin: 0;
+}
+
+h2{
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #ccc;
+}
+
+.site-footer {
+    position: fixed;
+    bottom: 0px;
+    color: #888;
+    width: 100%;
+    text-align: center;
+    background-color: #15151599;
+    border-top: 2px solid #333;
+}
+
+.footer-heading {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ddd;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;  
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #888;
+    font-size: 17px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.social-icons .github:hover    { color: #ffffff; }
+.social-icons .linkedin:hover  { color: #0077b5; }
+.social-icons .instagram:hover { color: #e4405f; }
+.social-icons .twitter:hover   { color: #1da1f2; }
+.social-icons .spotify:hover   { color: #1db954; }
+.social-icons .discord:hover   { color: #5865f2; }
+.social-icons .dribbble:hover  { color: #ea4c89; }
